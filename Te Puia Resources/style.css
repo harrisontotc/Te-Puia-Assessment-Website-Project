@@ -1,12 +1,15 @@
-
+img{
+    width: 100%;
+    border-radius: 5px;
+}
 
 .hero-video {
     object-fit: cover;
     object-position: center;
     height: 650px;
     width: 100%;
-    filter: contrast(65%);
-    filter: blur(10%);
+    filter: contrast(45%);
+    border-radius: 5px;
 }
 
 .hero-overlay {
@@ -27,10 +30,99 @@
 }
 
 .hero-subtitle {
-    font-size: 2rem;
-    color:darkred;
+    font-size: 2.3rem;
+    color:rgb(85, 0, 0);
     width: 100%;
     padding-top: 100px;
 }
 
+.hero-buttons {
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 5px;
+}
 
+.sign-in {
+    border-style: solid;
+    border-radius: 7px;
+    border-color: black;
+    background-color: rgb(230, 230, 230);
+    border-width: 1px;
+    padding: 6px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.register {
+    border-style: solid;
+    border-radius: 7px;
+    border-color:rgb(56, 56, 56);
+    background-color: rgb(56, 56, 56);
+    border-width: 1px;
+    padding: 6px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 16px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gm-page-navigator {
+    background-color:whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 30px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.gm-pn-button {
+    border-style: solid;
+    border-radius: 7px;
+    border-color: black;
+    background-color: rgb(61, 0, 0);
+    border-width: 1px;
+    padding: 6px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(224, 224, 224);
+}
+
+.gm-pn-info {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.st-page-navigator {
+    background-color:whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 30px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.st-pn-button {
+    border-style: solid;
+    border-radius: 7px;
+    border-color: black;
+    background-color: rgb(61, 0, 0);
+    border-width: 1px;
+    padding: 6px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(224, 224, 224);
+}
+
+.st-pn-info {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
