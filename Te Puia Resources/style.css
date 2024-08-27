@@ -1,3 +1,7 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 img{
     width: 100%;
     border-radius: 5px;
@@ -26,7 +30,6 @@ img{
     color: whitesmoke;
     padding-top: 50px;
     width: max-content;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .hero-subtitle {
@@ -95,7 +98,6 @@ img{
 
 .gm-pn-info {
     font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .st-page-navigator {
@@ -124,5 +126,50 @@ img{
 
 .st-pn-info {
     font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.reviews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.review {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: rgb(233, 233, 233);
+}
+
+.review-title {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.review-text {
+    color: black;
+    margin-left: 5px;
+}
+
+.reviewer-pfp {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 5px;
+}
+
+.reviewer-name {
+    display: inline;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+.review-date {
+    margin-left: 5px;
+    display: inline;
+    font-size: 12px;
 }
