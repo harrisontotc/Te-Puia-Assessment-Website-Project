@@ -159,17 +159,31 @@ img{
     height: 50px;
     border-radius: 25px;
     margin-left: 5px;
+    position: absolute;
 }
 
 .reviewer-name {
     display: inline;
-    margin-left: 10px;
-    padding-bottom: 5px;
+    padding-left: 60px;
+    vertical-align: middle;
     font-size: 16px;
 }
 
 .review-date {
-    margin-left: 5px;
-    display: inline;
+    margin-left: 2px;
     font-size: 12px;
+    padding-left: 58px;
+}
+
+.inst-img {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+}
+
+.inst-text {
+    font-size: 15px;
+    display: inline;
+    padding-left: 28px;
+    vertical-align: middle;
 }
