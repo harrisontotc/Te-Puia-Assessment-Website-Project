@@ -12,7 +12,7 @@ img{
     object-position: center;
     height: 650px;
     width: 100%;
-    filter: contrast(45%);
+    filter: contrast(65%);
     border-radius: 5px;
 }
 
@@ -56,13 +56,14 @@ img{
     padding-right: 9px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 
 .register {
     border-style: solid;
     border-radius: 7px;
     border-color:rgb(56, 56, 56);
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(44, 0, 0);
     border-width: 1px;
     padding: 6px;
     padding-left: 9px;
@@ -86,7 +87,7 @@ img{
     border-style: solid;
     border-radius: 7px;
     border-color: black;
-    background-color: rgb(61, 0, 0);
+    background-color:  rgb(44, 0, 0);
     border-width: 1px;
     padding: 6px;
     padding-left: 9px;
@@ -114,7 +115,7 @@ img{
     border-style: solid;
     border-radius: 7px;
     border-color: black;
-    background-color: rgb(61, 0, 0);
+    background-color: rgb(44, 0, 0);
     border-width: 1px;
     padding: 6px;
     padding-left: 9px;
@@ -134,7 +135,7 @@ img{
     gap: 80px;
     width: 100%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 8px;
 }
 
 .review {
@@ -142,16 +143,19 @@ img{
     border-style: solid;
     border-radius: 7px;
     border-color: rgb(233, 233, 233);
+    background-color:rgb(22, 0, 0);
 }
 
 .review-title {
     font-size: 18px;
     margin-left: 5px;
+    color: whitesmoke;
 }
 
 .review-text {
     color: black;
     margin-left: 5px;
+    color: whitesmoke;
 }
 
 .reviewer-pfp {
@@ -167,23 +171,127 @@ img{
     padding-left: 60px;
     vertical-align: middle;
     font-size: 16px;
+    color: whitesmoke;
 }
 
 .review-date {
     margin-left: 2px;
     font-size: 12px;
     padding-left: 58px;
+    color: white;
 }
 
 .inst-img {
-    height: 25px;
-    width: 25px;
-    position: absolute;
+    height: 32px;
+    width: 32px;
+    position: sticky;
+    padding-left: 1px;
+    vertical-align: top;
 }
 
 .inst-text {
     font-size: 15px;
-    display: inline;
-    padding-left: 28px;
     vertical-align: middle;
+    padding-left: 1px;
+}
+
+.yout-img {
+    height: 25px;
+    width: 35px;
+    position: sticky;
+    vertical-align: top;
+}
+
+.yout-text {
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.yout {
+    margin-top: 10px;
+}
+
+.twit-img {
+    height: 25px;
+    width: 25px;
+    position: sticky;
+    vertical-align: top;
+    padding-left: 5px;
+}
+
+.twit-text {
+    font-size: 15px;
+    vertical-align: middle;
+    padding-left: 4px;
+}
+
+.twit {
+    margin-top: 10px;
+}
+
+.billing {
+    display: block;
+}
+
+.phone {
+    display: inline;
+}
+
+.email {
+    display: inline;
+}
+
+.artifacts {
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+    width: 100%;
+    margin: auto;
+    margin-top: 8px;
+}
+
+.item-01-image {
+    height: 1000px;
+    width: 400px;
+}
+
+.item-02-image {
+    height: 1000px;
+    width: 400px;
+}
+
+.geological-attractions {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+}
+
+.geyser-waterfall {
+    border-radius: 0px;
+}
+
+.mudpool {
+    border-radius: 0px;
+}
+
+.geological-attractions-info {
+    background-color: whitesmoke;
+    margin-left: 4px;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 8px;
+    text-align: center;
+}
+
+.second-artifacts {
+    display: grid;
+    grid-template-columns: repeat(2, 0.4fr);
+    gap: 60px;
+    width: 100%;
+    margin: auto;
+    margin-top: 25px;
 }
